@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T14:40:55.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36" etag="XfrqGC0AzXdo5w2jBSNw" version="17.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-13T14:59:07.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36" etag="K8EI9jdgkq2VgvvYg8uI" version="17.4.3" type="github" pages="2">
   <diagram id="dueWg7vu715GVRX9rq3l" name="Main features">
     <mxGraphModel dx="1185" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -103,11 +103,47 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="xT_UTIa_lAOCR2Zq_0yf" name="Page-2">
-    <mxGraphModel dx="1422" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="xT_UTIa_lAOCR2Zq_0yf" name="Draw trendline and keylevel">
+    <mxGraphModel dx="1185" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-2" value="KeyLevel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Verdana;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="350" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-3" value="- Type (Resistence/Support);&#xa;- TimeCreate;&#xa;- CrossTimes&#xa;- ReachTimes&#xa;- UpperPrice;&#xa;- LowerPrice;&#xa;- Name;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-2">
+          <mxGeometry y="26" width="350" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-2">
+          <mxGeometry y="190" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-5" value="+ Create&#xa;+ Update&#xa;+ Delete&#xa;+ Detect&#xa;+ Draw" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-2">
+          <mxGeometry y="198" width="350" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-7" value="KeyPoint" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Verdana;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="670" y="50" width="350" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-8" value="- Type (high/low);&#xa;- TimeCreate;&#xa;- Price;&#xa;- DTime;&#xa;- DPrice;&#xa;- Name;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-7">
+          <mxGeometry y="26" width="350" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-7">
+          <mxGeometry y="190" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-10" value="+ Create&#xa;+ Delete&#xa;+ Detect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-7">
+          <mxGeometry y="198" width="350" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-13" value="Trendline" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Verdana;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="730" y="390" width="350" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-14" value="- Type (uptrend/downtrend);&#xa;- TimeCreate;&#xa;- ListKeyPoint&#xa;- Width&#xa;- DPrice;&#xa;- Name;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-13">
+          <mxGeometry y="26" width="350" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-13">
+          <mxGeometry y="170" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="wbWQdk9JIUh5SgzhBwTY-16" value="+ Create&#xa;+ Delete&#xa;+ Detect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;fontSize=16;" vertex="1" parent="wbWQdk9JIUh5SgzhBwTY-13">
+          <mxGeometry y="178" width="350" height="72" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
